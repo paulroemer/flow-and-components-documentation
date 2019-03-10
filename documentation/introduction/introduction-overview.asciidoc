@@ -75,7 +75,7 @@ public class MyLabel extends Component {
 }
 ----
 
-See the tutorials in <<../creating-components/tutorial-component-basic#,Creating Components>> to learn how to build components with a reusable API, and <<../element-api/tutorial-event-listener#,Element API>> to learn how to access and customize the DOM from the server side.
+See the tutorials in <<../creating-components/tutorial-component-basic#,Creating components>> to learn how to build components with a reusable API, and <<../element-api/tutorial-event-listener#,Element API>> to learn how to access and customize the DOM from the server side.
 
 
 === Integrating a Web Component
