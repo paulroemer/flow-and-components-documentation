@@ -3,6 +3,7 @@ title: Theming Crash Course
 order: 4
 layout: page
 ---
+
 = Theming Web Components
 
 This chapter gives an overview of everything you need to understand in order to master and be productive in theming modern web applications which are built with web components.
