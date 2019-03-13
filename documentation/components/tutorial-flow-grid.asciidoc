@@ -350,7 +350,7 @@ nameColumn.setFooter("Name");
 nameColumn.setFooter(new Html("<b>Name</b>"));
 ----
 
-See <<Using Template Renderers>> for more.
+See <<Using Template renderers,Using Template Renderers>> for more.
 
 === Column Reordering
 
