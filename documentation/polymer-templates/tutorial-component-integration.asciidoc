@@ -1,15 +1,14 @@
 ---
-title: Integrating components in a PolymerTemplate
+title: Detecting Component Mappings in a PolymerTemplate
 order: 10
 layout: page
 ---
 
-== Detecting whether your component is part of a <<tutorial-template-basic#,PolymerTemplate>>
+= Detecting Component Mappings in a PolymerTemplate
 
-When creating your own component, you may want to execute custom logic depending on the component was mapped in a template (by being injected via `@Id` or `@Uses`)
-or was created directly using one of its constructors.
+You can check whether a component is mapped in a PolymerTemplate (i.e. injected via the <<tutorial-template-components#,`@Id`>> or <<tutorial-template-subtemplate#,`@Uses`>> annotation), or was created directly using one of its constructors, using the `isTemplateMapped` method.
 
-To do that, you can call the `isTemplateMapped` method from your component. For example:
+*Example*: Calling the `isTemplateMapped` method from `MyComponent`. 
 
 [source,java]
 ----
@@ -23,7 +22,4 @@ public class MyComponent extends Div {
   }
 }
 ----
-
-In this example, the component only sets a style by default when the component is not part of a template.
-
-To know more about `@Id` mappings, check the <<tutorial-template-components#,Binding Components from a PolymerTemplate>> tutorial.
+* `MyComponent` only sets a default style if the component is not part of a template.
